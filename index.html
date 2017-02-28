@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Places Visited</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>My Adventures</h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Details of the place visited:</h2>
+        <form id="new-place">
+          <div class="form-group">
+            <label for="place-name">Place</label>
+            <input type="text" class="form-control" id="place" placeholder="Enter name of the place">
+          </div>
+          <div class="form-group">
+            <label for="place-name">City</label>
+            <input type="text" class="form-control" id="city-name" placeholder="Enter name the of city">
+          </div>
+          <div class="form-group">
+            <label for="">Time Visited</label>
+            <input type="text" class="form-control" id="time-visited" placeholder="Month and year visited">
+          </div>
+          <div class="form-group">
+            <label for="landmark">Fascinating Landmark</label>
+            <input type="text" class="form-control" id="landmark" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="info">Fascinating info</label>
+            <input type="text" class="form-control" id="info">
+          </div>
+
+          <button type="submit" class="btn">Add</button>
+        </form>
+
+        <h2>Places Visited:</h2>
+        <ul id="places">
+
+        </ul>
+      </div>
+
+      <!--end column 1-->
+      <div class="col-md-6 text-center">
+        <h2 class="cont">Adventure Details</h2>
+        <div id="show-adventure">
+          <h2></h2>
+
+          <p><strong>Name of place:</strong> <span class="place"></span></p>
+          <p><strong>Name of city:</strong> <span class="city"></span></p>
+          <p><strong>Time Visited:</strong> <span class="time"></span></p>
+          <p><strong>Fascinating Landmark:</strong> <span class="landmark"></span></p>
+          <p><strong>Fascinating Info:</strong> <span class="info"></span></p>
+        </div>
+        <!--end id-->
+      </div>
+      <!--end column 2-->
+    </div>
+  </div>
+  <!-- container end -->
+</body>
+
+</html>

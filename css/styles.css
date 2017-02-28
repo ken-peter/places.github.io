@@ -1,0 +1,20 @@
+#show-adventure {
+  display: none;
+}
+
+.visit {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.visit:hover {
+  text-decoration: underline;
+}
+
+.cont {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
