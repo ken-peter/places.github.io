@@ -2,9 +2,8 @@
 
 PLACES VISITED
 
-[Project site](https://example.com)
 
-Authors: [Your Name](https://your-website-or-email.com) + other authors
+Authors:
 Kennedy Peter
 kennedypeter89@gmail.com
 
